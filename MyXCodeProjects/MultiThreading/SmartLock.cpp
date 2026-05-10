@@ -21,7 +21,7 @@ void writer() {
     std::unique_lock<std::shared_mutex> lock(smtx); // exclusive write
     data.push_back(6);
     std::cout << "Writer: added 6" << std::endl;
-    std::cout<<"AnchitPathak";
+    std::cout<<"Anchit Pathak";
 }
 
 //int main() {
